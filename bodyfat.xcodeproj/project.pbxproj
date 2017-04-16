@@ -13,6 +13,8 @@
 		E0095E4A1E9FD28C00BA6A0B /* bodyfat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0095E481E9FD28C00BA6A0B /* bodyfat.xcdatamodeld */; };
 		E0095E4C1E9FD28C00BA6A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0095E4B1E9FD28C00BA6A0B /* Assets.xcassets */; };
 		E0095E4F1E9FD28C00BA6A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0095E4D1E9FD28C00BA6A0B /* LaunchScreen.storyboard */; };
+		E0095E5B1EA0BE8900BA6A0B /* BodyFatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0095E5A1EA0BE8900BA6A0B /* BodyFatViewController.swift */; };
+		E0095E5D1EA0C60100BA6A0B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0095E5C1EA0C60100BA6A0B /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E0095E4B1E9FD28C00BA6A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0095E4E1E9FD28C00BA6A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0095E501E9FD28C00BA6A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0095E5A1EA0BE8900BA6A0B /* BodyFatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyFatViewController.swift; sourceTree = "<group>"; };
+		E0095E5C1EA0C60100BA6A0B /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				E0095E411E9FD28C00BA6A0B /* AppDelegate.swift */,
 				E0095E431E9FD28C00BA6A0B /* ViewController.swift */,
 				E0095E451E9FD28C00BA6A0B /* Main.storyboard */,
+				E0095E5C1EA0C60100BA6A0B /* ResultViewController.swift */,
+				E0095E5A1EA0BE8900BA6A0B /* BodyFatViewController.swift */,
 				E0095E4B1E9FD28C00BA6A0B /* Assets.xcassets */,
 				E0095E4D1E9FD28C00BA6A0B /* LaunchScreen.storyboard */,
 				E0095E501E9FD28C00BA6A0B /* Info.plist */,
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0095E5D1EA0C60100BA6A0B /* ResultViewController.swift in Sources */,
 				E0095E441E9FD28C00BA6A0B /* ViewController.swift in Sources */,
 				E0095E4A1E9FD28C00BA6A0B /* bodyfat.xcdatamodeld in Sources */,
+				E0095E5B1EA0BE8900BA6A0B /* BodyFatViewController.swift in Sources */,
 				E0095E421E9FD28C00BA6A0B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
